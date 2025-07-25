@@ -8,10 +8,10 @@
   },
   "servers": [
     {
-      "id": "The-Restart-1.12.2",
+      "id": "The-Restart-1.20.1",
       "name": "The-Restart (Minecraft 1.20.1)",
       "description": "The Restart Running Minecraft 1.20.1 (Forge v47.4.0)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
+      "icon": "https://your-server.com/icon.png",
       "version": "1.0.0",
       "address": "pidorascraft.falixsrv.me",
       "minecraftVersion": "1.20.1",
@@ -30,7 +30,7 @@
           "artifact": {
             "size": 2776081,
             "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
-            "url": "https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft/files/6739107"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
           },
           "subModules": [
             {
@@ -40,20 +40,10 @@
               "artifact": {
                 "size": 16612,
                 "MD5": "029daa8b97e10cedd4d6726a563379ab",
-                "url": "https://github.com/TheRestartStudio/launcher-distro/blob/main/1.20.1-forge-47.4.0.json"
+                "url": "https://raw.githubusercontent.com/TheRestartStudio/launcher-distro/main/1.20.1-forge-47.4.0.json"
               }
             }
           ]
-        },
-        {
-          "id": "net.dries007:tfc:3.2.16@jar",
-          "name": "TerraFirmaCraft",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 47450381,
-            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/CreativeCore_v1.10.65_mc1.12.2.jar",
-            "MD5": "ac46fb177d94e9729c0fa4e7c116dedd"
-          }
         }
       ]
     }
