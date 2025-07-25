@@ -13,7 +13,7 @@
       "description": "The Restart Running Minecraft 1.20.1 (Forge v47.4.0)",
       "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "pidorascraft.falixsrv.me",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "The Restart",
