@@ -1,57 +1,58 @@
 {
   "version": "1.0.0",
+  "rss": "https://therestart.com/news.rss",
   "discord": {
     "clientId": "1398203334388748442",
     "smallImageText": "The Restart Launcher",
     "smallImageKey": "launcher"
   },
-  "rss": "https://therestart.com/news.rss",
   "servers": [
     {
-      "id": "therestart_main",
-      "name": "The Restart Main",
-      "description": "The Restart Server",
-      "icon": "https://raw.githubusercontent.com/username/launcher-config/main/server-icon.png",
+      "id": "The-Restart-1.12.2",
+      "name": "The-Restart (Minecraft 1.20.1)",
+      "description": "The Restart Running Minecraft 1.20.1 (Forge v47.4.0)",
+      "icon": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/WesterosCraft-Demo-1.12.2.png",
       "version": "1.0.0",
       "address": "pidorascraft.falixsrv.me",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "The Restart",
-        "largeImageText": "The Restart Server",
-        "largeImageKey": "server"
+        "largeImageKey": "therestart",
+        "largeImageText": "The Restart Server"
       },
       "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraft:client:1.20.1",
-          "name": "Minecraft",
-          "type": "version",
-          "artifact": {
-            "size": 23514624,
-            "url": "https://piston-data.mojang.com/v1/objects/fd19469fed4a4b4c15b2d5133985f0e3e7816a8a/client.jar"
-          }
-        },
-        {
           "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
           "name": "Minecraft Forge",
-          "type": "forgehosted",
+          "type": "ForgeHosted",
           "artifact": {
-            "size": 2956789,
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
-          }
+            "size": 2776081,
+            "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft/files/6739107"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "https://github.com/TheRestartStudio/launcher-distro/blob/main/1.20.1-forge-47.4.0.json"
+              }
+            }
+          ]
         },
         {
-          "id": "com.therestart:jei:1.20.1",
-          "name": "Just Enough Items",
-          "type": "litemod",
-          "required": {
-            "value": true
-          },
+          "id": "net.dries007:tfc:3.2.16@jar",
+          "name": "TerraFirmaCraft",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 2845123,
-            "url": "https://github.com/username/launcher-mods/releases/download/v1.0/jei-1.20.1-15.20.0.104.jar",
-            "MD5": "a1b2c3d4e5f6789012345678901234ab"
+            "size": 47450381,
+            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/forgemods/required/CreativeCore_v1.10.65_mc1.12.2.jar",
+            "MD5": "ac46fb177d94e9729c0fa4e7c116dedd"
           }
         }
       ]
