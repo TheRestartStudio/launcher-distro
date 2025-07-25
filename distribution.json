@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "1398203334388748442",
+    "smallImageText": "The Restart Launcher",
+    "smallImageKey": "launcher"
+  },
+  "rss": "https://therestart.com/news.rss",
+  "servers": [
+    {
+      "id": "therestart_main",
+      "name": "The Restart Main",
+      "description": "The Restart Server",
+      "icon": "https://raw.githubusercontent.com/username/launcher-config/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "pidorascraft.falixsrv.me",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "The Restart",
+        "largeImageText": "The Restart Server",
+        "largeImageKey": "server"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraft:client:1.20.1",
+          "name": "Minecraft",
+          "type": "version",
+          "artifact": {
+            "size": 23514624,
+            "url": "https://piston-data.mojang.com/v1/objects/fd19469fed4a4b4c15b2d5133985f0e3e7816a8a/client.jar"
+          }
+        },
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+          "name": "Minecraft Forge",
+          "type": "forgehosted",
+          "artifact": {
+            "size": 2956789,
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+          }
+        },
+        {
+          "id": "com.therestart:jei:1.20.1",
+          "name": "Just Enough Items",
+          "type": "litemod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2845123,
+            "url": "https://github.com/username/launcher-mods/releases/download/v1.0/jei-1.20.1-15.20.0.104.jar",
+            "MD5": "a1b2c3d4e5f6789012345678901234ab"
+          }
+        }
+      ]
+    }
+  ]
+}
