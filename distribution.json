@@ -44,19 +44,6 @@
               }
             }
           ]
-        },
-        {
-          "id": "toni:sodiumdynamiclights:1.0.10@jar",
-          "name": "SodiumDynamicLights",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 511601,
-            "url": "https://raw.githubusercontent.com/TheRestartStudio/launcher-distro/main/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
-            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
-          },
-          "required": {
-            "value": false
-          }
         }
       ]
     }
